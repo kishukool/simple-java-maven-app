@@ -1,4 +1,4 @@
-properties([parameters([string(name: 'Bucket_Name', defaultValue: 'kishan9999')])])
+properties ([parameters([string(name: 'Bucket_Name', defaultValue: 'kishan9999')])])
 pipeline {
     agent {
         docker {
